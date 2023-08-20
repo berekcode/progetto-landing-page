@@ -28,9 +28,10 @@ a {
 
   .logo {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
     font-style: Roboto;
+    margin-right: 370px;
   }
   
   ul {
@@ -45,3 +46,40 @@ a {
     align-items: center;
     gap: 16px;
   }
+  img {
+    width: 400px;
+    height: 200px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 52px;
+    background-color: #1f2937;
+    padding-top: 50px;
+  }
+  .info {
+  
+    max-width: 300px;
+  }
+  .text {
+    font-style: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+
+ .btn{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  
+  
+ }
+ button {
+  background-color: #3882f6 ;
+  border-radius: 7px;
+  color: #f9faf8;
+  font-size: 20px;
+  border: none;
+  width: 100px;
+  
+ }
