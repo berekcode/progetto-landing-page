@@ -129,7 +129,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 25px;
-  
+  padding-bottom: 100px;
   
   
  }
@@ -147,4 +147,12 @@ a {
  .notafour {
   padding-top: 20px;
   padding-left: 35px;
+ }
+ .lorem {
+  padding: 100px;
+  background-color: #e5e7eb;
+ }
+ .junior {
+  text-align: end;
+  padding-top: 10px;
  }
