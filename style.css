@@ -1,9 +1,13 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background: #fff;
     font-family:Roboto, Arial, Helvetica, sans-serif ;
+    text-align: center;
+
     
 }
+
+
 
 a {
     /* this removes the line under our links */
@@ -46,26 +50,47 @@ a {
     align-items: center;
     gap: 16px;
   }
-  img {
+  .fotos {
     width: 400px;
     height: 200px;
   }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
   .container {
     display: flex;
     justify-content: space-around;
     gap: 52px;
     background-color: #1f2937;
     padding-top: 50px;
+  
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
   }
   .info {
   
     max-width: 300px;
   }
+
+  
   .text {
     font-style: Roboto;
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+  }
+  .texts {
+    font-style: Roboto;
+    font-size: 18px;
+    color: #1f2937;
+    
+  
   }
 
  .btn{
@@ -82,4 +107,44 @@ a {
   border: none;
   width: 100px;
   
+ }
+ .containers {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 50px;
+  
+  
+
+  
+ }
+ .infos {
+  max-width: 180px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+ }
+ .nota {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  
+  
+  
+ }
+ .notaone {
+  padding-top: 20px;
+ }
+ .notatwo {
+  padding-top: 20px;
+  padding-left: 20px;
+ }
+ .notathree {
+  padding-top: 20px;
+  padding-left: 29px;
+ }
+ .notafour {
+  padding-top: 20px;
+  padding-left: 35px;
  }
