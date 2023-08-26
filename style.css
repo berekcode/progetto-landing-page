@@ -153,6 +153,47 @@ a {
   background-color: #e5e7eb;
  }
  .junior {
-  text-align: end;
-  padding-top: 10px;
+  text-align: right;
+ }
+ .modale {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+  
+  
+ }
+ .parte {
+  display: flex;
+  background: #3882f6;
+  gap: 50px;
+  padding: 50px;
+  border-radius: 7px;
+
+  
+  
+ }
+ .titolo {
+  text-align: left;
+  font-style: Roboto;
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+
+ }
+ .sottotitolo {
+  color: #f9faf8;
+ }
+ .sign {
+  border: 1px solid #f9faf8;
+ }
+
+ footer {
+  background-color: #1f2937;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #f9faf8;
+  
+  
  }
